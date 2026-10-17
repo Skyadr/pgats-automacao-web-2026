@@ -19,10 +19,10 @@ jobs:
           node-version: 20
           cache: npm
 
-      - name: Install dependencies
+      - name: Instalando dependências
         run: npm ci
 
-      - name: Run Cypress tests
+      - name: Executando os testes
         run: npx cypress run --spec "cypress/e2e/1-getting-started/automation-exercise-trabalho-final.cy.js"
 
       - name: Upload test artifacts
