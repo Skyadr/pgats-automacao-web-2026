@@ -1,6 +1,7 @@
 node_modules
 log
 results
+browserstack.json
 
 # cypress
 cypress/reports
