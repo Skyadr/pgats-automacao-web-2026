@@ -10,7 +10,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Check out repository
+      
+      - name: clone do projeto para a máquina
         uses: actions/checkout@v4
 
       - name: Set up Node.js
